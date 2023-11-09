@@ -1,0 +1,15 @@
+{
+  "name": "container",
+  "version": "1.0.0",
+  "description": "This will be my first succesfuk docker container for nodejs it will be edited later",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}

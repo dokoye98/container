@@ -6,7 +6,7 @@ const app = express()
 app.get('/',(req,res)=>{
 
     console.log('homepage')
-    return res.send({message:'Hello world'})
+     res.send({message:'Hello world'})
 })
 
 app.listen(3000,()=>{
